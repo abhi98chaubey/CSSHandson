@@ -3,6 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
 body > div{
     height: 200px;
     width: 200px;
@@ -49,6 +53,10 @@ body > div{
 }
 #three {
     background-image: conic-gradient(30deg, white 5%, red 50%, blue 45%);
+    transform: skew(-45deg);
+    position: relative;
+    top: 70px;
+    left: 500px;
   }
   
 
