@@ -12,5 +12,23 @@ div{
     margin: 10px;
     padding: 70px;
     box-shadow: blue;
+    margin-top: 30px;
+    margin-left: 300px;
+
     
 }
+#one {
+    background: linear-gradient(to top, red, blue);
+  }
+  
+#two{
+    background-image: radial-gradient(white, red, blue);
+    box-shadow: 10px 10px 10px red;
+    text-shadow: 3px 3px 3px black;
+    
+}
+#three {
+    background-image: conic-gradient(30deg, white 5%, red 50%, blue 45%);
+  }
+  
+  
