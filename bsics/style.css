@@ -3,14 +3,14 @@
     margin: 0;
     box-sizing: border-box;
 }
-div{
+body > div{
     height: 200px;
     width: 200px;
     background-color: blueviolet;
     color: brown;
     border: 2px solid black;
     margin: 10px;
-    padding: 70px;
+    
     box-shadow: blue;
     margin-top: 30px;
     margin-left: 300px;
@@ -18,17 +18,38 @@ div{
     
 }
 #one {
+    position: relative;
+    left: 100px;
+    top: 300px;
     background: linear-gradient(to top, red, blue);
+    overflow: auto;
+  }
+  #one > div{
+    height: 100px;
+    width: 20px;
+    background-color: black;
+    color: aliceblue;
+    border: 2px solid brown;
+    margin: 10px;
+   
+  }
+  #st{
+    position: sticky;
+    left: 20px;
+    top: 20px;
   }
   
 #two{
     background-image: radial-gradient(white, red, blue);
     box-shadow: 10px 10px 10px red;
     text-shadow: 3px 3px 3px black;
+    position: fixed;
+    top: 50px;
     
 }
 #three {
     background-image: conic-gradient(30deg, white 5%, red 50%, blue 45%);
   }
   
+
   
