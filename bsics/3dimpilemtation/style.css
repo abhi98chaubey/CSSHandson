@@ -7,8 +7,53 @@ div{
     height: 100px;
     width: 100px;
     position: relative;
-    top: 300px;
+    top: 100px;
     left: 500px;
     background-color: red;
     border: 4px solid blue;
+    margin: 100px;
+}
+
+#elest{
+    animation-name: abhi;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    
+    animation-fill-mode: forwards;
+}
+
+@keyframes abhi {
+    from{
+        width: 100px;
+        height: 100px;
+    }
+    to{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+
+#nd{
+    animation-name: mohit;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes mohit{
+    0%{
+        width: 100px;
+        height: 100px;
+    }
+    50%{
+        width: 200px;
+        height: 200px;
+    }
+    100%{
+        width: 100px;
+        height: 100px;
+    }
 }
